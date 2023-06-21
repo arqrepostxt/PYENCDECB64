@@ -6,12 +6,12 @@ The tool features one mini window with 2 tabs. The first tab displays a Text box
 
 # Requirements
 The present project needs Python v3.5, PyQt5 and PyInstaller. You can read more details about each resource bellow.<br>  
-### Python
+### 1.Python
 Python v3.5 and supperior - To run a script code writen with Python language on a manchine is necessary Python already installed and this projects requires Python v3.5 to generate the software with visual interface using resources from PyQt5.
 #### How to install Python
 To install the latest Python version follow the official link: [https://www.python.org/downloads/](https://www.python.org/downloads/) <br>
 
-### PyQt5
+### 2.Qt5
 PyQt5 is a Python toolkit that provides sources for displaying an user friendly visual user interface for python script.<br>
 #### Here is how to install PyQT5
 To install PyQT5 follow this single step guide copy and paste the bellow command on your terminal 
@@ -20,7 +20,7 @@ pip install PyQt5
 ```
 <br>
 
-### PyInstaller
+### 3.PyInstaller
 PyInstaller - Provides a solution to build python program for windows with .exe executable.<br>
 
 #### How to install Pyinstaller to create .exe from python script 
@@ -30,7 +30,7 @@ pip install pyinstaller
 ```
 
 
-# Guide Tutorial to build the exe binary for windows
+# Guide Tutorial to how to make .exe from python script
 After installed the requirements, run the bellow command on your terminal 'pyinstaller' 
 ```
 pyinstaller -onefile  -windowed --pyencdecbase64.py
