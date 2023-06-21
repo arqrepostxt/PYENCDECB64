@@ -5,6 +5,7 @@ PYENCDECB64 is a Pyton project of a tool to Encode/Decode text to base 64 with r
 The tool features one mini window with 2 tabs. The first tab displays a Text box with a button that encodes the text to base 64 code. The second tab displays the same interface, but the button decodes the base 64 code from the Text box.<br>
 
 # Requirements
+The present project needs Python v3.5, PyQt5 and PyInstaller. You can read more details about each resource bellow.<br>  
 Python v3.5 and supperior - To run a Python script code on a manchine is necessary Python already installed and this projects requires Python v3.5 to generate the software with visual interface using resources from PyQt5.
 ### How to install Python
 To install the latest Python version follow the official link: [https://www.python.org/downloads/](https://www.python.org/downloads/) <br>
